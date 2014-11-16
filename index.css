@@ -1,0 +1,36 @@
+
+h2{
+	color: red;
+}
+h3{
+color: #0066ff;
+}
+.seprate{
+	height: 300px;
+	width: 50%;
+	background-color:#33cc99;
+}
+#directory{
+	height: 400px;
+	width: 150px;
+	border:1px dashed #3366ff;
+	position: fixed;
+	top:150px;
+	right: 280px;	
+}
+#directory li{
+	list-style-type: none;
+	padding-top: 8px;
+	font-size: 1.2em;
+    cursor: pointer;
+}
+#directory li:hover{
+	color: #3366ff;
+}
+#directory .lowLevel{
+	text-indent: 1em;
+}
+#directory .active{
+	color: blue;
+}
+
